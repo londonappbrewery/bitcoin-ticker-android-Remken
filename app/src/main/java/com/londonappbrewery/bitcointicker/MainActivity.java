@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //update UI
                 try {
-                    mPriceTextView.setText(response.getString("ask"));
+                    mPriceTextView.setText(response.getString("last"));
                 } catch (JSONException e){
 
                 }
